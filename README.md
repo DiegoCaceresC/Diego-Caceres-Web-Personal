@@ -5,4 +5,4 @@ Aquí te enseño mi CV programado en formato web, enteramente programado por mí
 
 Un saludo<br><br>
 <a href="https://myportfoliodiego.netlify.app/" target="_blank">www.myportfoliodiego.netlify.app</a><br><br><br>
-<!-- ![alt text](https://github.com/miguelx97/Miguel-Martin-Web-Personal/blob/master/img/pantallazo-web.jpg) -->
+![alt text](https://github.com/DiegoCaceresC/Diego-Caceres-Web-Personal/blob/main/Imagenes/Home.PNG) 
