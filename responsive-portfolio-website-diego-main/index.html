@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon-32x32.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive portfolio website Diego Caceres Canova</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo"> Diego </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="ri-home-5-line"></i>Home
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="ri-trophy-line"></i> Skills
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#qualification" class="nav__link">
+                <i class="ri-book-open-line"></i> Calificaciones
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#services" class="nav__link">
+                <i class="ri-briefcase-line"></i> Servicios
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">
+                <i class="ri-gallery-line"></i> Proyectos
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="ri-chat-3-line"></i> Contacto
+              </a>
+            </li>
+          </ul>
+
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-circle-line"></i>
+          </div>
+        </div>
+        <div class="nav__buttons">
+          <!-- Theme Change button -->
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+          <!-- Toogle button -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-4-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid section__border">
+          <div class="home__data grid">
+            <h1 class="home__title">
+              Hola, Soy Diego <br />
+              Desarrollador Full Stack <br />
+              De Lima, Perú <br />
+            </h1>
+            <div class="home__blob grid">
+              <div class="home__perfil">
+                <img src="assets/img/perfil.jpg" alt="home perfil" />
+              </div>
+              <img
+                src="assets/img/shape-wawes.svg"
+                alt=""
+                class="home__shape-wawes"
+              />
+              <img
+                src="assets/img/shape-circle.svg"
+                alt=""
+                class="home__shape-circle"
+              />
+            </div>
+
+            <ul class="home__social">
+              <a
+                href="https://www.linkedin.com/in/diego-c%C3%A1ceres-c%C3%A1nova-b51624278/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-linkedin-box-line"></i>
+              </a>
+              <a
+                href="https://github.com/DiegoCaceresC"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-github-line"></i>
+              </a>
+            </ul>
+          </div>
+          <!--==================== HOME INFO 1 ====================-->
+
+          <div class="home__info">
+            <div>
+              <h3 class="home__info-title">BIOGRAFÍA</h3>
+              <p class="home__info-description">
+                Hola, soy Diego! Desarrollador Full Stack. Apasionado por el
+                diseño de interfaces web. Establecido en Perú.
+              </p>
+            </div>
+            <div>
+              <h3 class="home__info-title">CONTACTO</h3>
+              <p class="home__info-description">
+                Lima, Perú <br />
+                diego.caceres.canova@gmail.com<br />
+                +51 992627486 <br />
+              </p>
+            </div>
+            <div>
+              <h3 class="home__info-title">SERVICIOS</h3>
+              <p class="home__info-description">
+                Diseño de páginas Web <br />
+                Creación de Reportes Interactivos<br />
+                Analisis de Datos<br />
+              </p>
+            </div>
+          </div>
+          <!--==================== HOME INFO 2 ====================-->
+          <div class="home__info">
+            <div>
+              <h3 class="home__info-title">AÑOS DE EXPERIENCIA</h3>
+              <p class="home__info-number">03+</p>
+            </div>
+            <div>
+              <h3 class="home__info-title">PROYECTOS COMPLETADOS</h3>
+              <p class="home__info-number">02+</p>
+            </div>
+            <div>
+              <h3 class="home__info-title">COMPAÑIAS EN LAS QUE TRABAJE</h3>
+              <p class="home__info-number">02+</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">Mis habilidades favoritas</span>
+        <div class="skills__container container grid section__border">
+          <!--==================== SKILLS 1 ====================-->
+          <div class="skills__content">
+            <h3 class="skills__title">
+              <i class="ri-braces-line"></i> Full Stack Developer
+            </h3>
+
+            <div class="skills__info">
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="assets/img/html-1.svg" alt="skills image" />
+                </div>
+                <h3 class="skills__name">HTML</h3>
+                <span class="skills__subtitle">Básico</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="assets/img/css-3.svg" alt="skills image" />
+                </div>
+                <h3 class="skills__name">CSS</h3>
+                <span class="skills__subtitle">Básico</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img
+                    src="assets/img/logo-javascript.svg"
+                    alt="skills image"
+                  />
+                </div>
+                <h3 class="skills__name">Javascript</h3>
+                <span class="skills__subtitle">Intermedio</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="assets/img/react-2.svg" alt="skills image" />
+                </div>
+                <h3 class="skills__name">React / Redux</h3>
+                <span class="skills__subtitle">Básico</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="assets/img/git-icon.svg" alt="skills image" />
+                </div>
+                <h3 class="skills__name">Git / github</h3>
+                <span class="skills__subtitle">Intermedio</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="assets/img/nodejs-icon.svg" alt="skills image" />
+                </div>
+                <h3 class="skills__name">Node JS</h3>
+                <span class="skills__subtitle">Básico</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="assets/img/mongodb-icon.svg" alt="skills image" />
+                </div>
+                <h3 class="skills__name">MongoDB</h3>
+                <span class="skills__subtitle">Básico</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="assets/img/sequelizejs-icon.svg" alt="skills image" />
+                </div>
+                <h3 class="skills__name">Sequelize</h3>
+                <span class="skills__subtitle">Básico</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="assets/img/postgresql-icon.svg" alt="skills image" />
+                </div>
+                <h3 class="skills__name">PostgreSQL</h3>
+                <span class="skills__subtitle">Básico</span>
+              </div>
+
+            </div>
+          </div>
+          <!--==================== SKILLS 2 ====================-->
+          <div class="skills__content">
+            <h3 class="skills__title">
+              <i class="ri-pantone-line"></i> Otras habilidades
+            </h3>
+
+            <div class="skills__info">
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="assets/img/autocad.svg" alt="skills image" />
+                </div>
+                <h3 class="skills__name">Autocad</h3>
+                <span class="skills__subtitle">Básico</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="assets/img/Inventor_23604.png" alt="skills image" />
+                </div>
+                <h3 class="skills__name">Inventor</h3>
+                <span class="skills__subtitle">Básico</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="assets/img/icons8-power-bi.svg" alt="skills image" />
+                </div>
+                <h3 class="skills__name">Power BI</h3>
+                <span class="skills__subtitle">Básico</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="assets/img/tableau-software.svg" alt="skills image" />
+                </div>
+                <h3 class="skills__name">Tableau</h3>
+                <span class="skills__subtitle">Básico</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="assets/img/python-svgrepo-com.svg" alt="skills image" />
+                </div>
+                <h3 class="skills__name">Python</h3>
+                <span class="skills__subtitle">Básico</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section" id="qualification">
+        <h2 class="section__title">Calificaciones</h2>
+        <span class="section__subtitle">Experiencia & Educación</span>
+
+        <div class="qualification__container container grid section__border">
+          <!--==================== QUALIFICATION 1 ====================-->
+          <div class="qualification__content">
+            <h3 class="qualification__title">
+              <i class="ri-pencil-line"></i> Educación
+            </h3>
+
+            <div class="qualification__info">
+              <div>
+                <h3 class="qualification__name">Full Stack Developer course</h3>
+                <span class="qualification__country">Bootcamp Soy-Henry</span>
+                <span class="qualification__year">2023</span>
+              </div>
+
+              <div>
+                <h3 class="qualification__name">
+                  Bachiller en Ingeniería Mecatrónica
+                </h3>
+                <span class="qualification__country"
+                  >Peru - Universidad Peruana de Ciencias Aplicadas UPC</span
+                >
+                <span class="qualification__year">2015-2020</span>
+              </div>
+            </div>
+          </div>
+
+          <!--==================== QUALIFICATION 2====================-->
+          <div class="qualification__content">
+            <h3 class="qualification__title">
+              <i class="ri-building-line"></i> Experiencia Laboral
+            </h3>
+
+            <div class="qualification__info">
+              <div>
+                <h3 class="qualification__name">
+                  Ingeniero Junior (Freelance)
+                </h3>
+                <span class="qualification__country"
+                  >Ejercicio Profesional Independiente</span
+                >
+                <span class="qualification__year"
+                  >Diciembre de 2022 – Junio de 2023</span
+                >
+              </div>
+
+              <div>
+                <h3 class="qualification__name">Ingeniero Junior</h3>
+                <span class="qualification__country"
+                  >TECNOCONTROL SAC - PERU</span
+                >
+                <span class="qualification__year"
+                  >Julio de 2021 - Agosto de 2022</span
+                >
+              </div>
+
+              <div>
+                <h3 class="qualification__name">Prácticas Pre profesionales</h3>
+                <span class="qualification__country"
+                  >FRIOTECNOLOGIA SAC - PERU</span
+                >
+                <span class="qualification__year"
+                  >Julio de 2020 - Enero de 2021</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <img
+          src="assets/img/shape-circle.svg"
+          alt="qualification img"
+          class="qualification__img"
+        />
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services">
+        <h2 class="section__title">Servicios</h2>
+        <span class="section__subtitle">Lo que ofrezco</span>
+
+        <div class="services__container container grid section__border">
+          <div class="services__card">
+            <i class="ri-layout-line"></i>
+
+            <h2 class="services__title">
+              Diseño <br />
+              Web
+            </h2>
+
+            <p class="services__description">
+              Servicio que brinda la mejor calidad a pedido del cliente, con
+              trabajo profesional y atención al cliente.
+            </p>
+            <div class="services__border"></div>
+          </div>
+          <div class="services__card">
+            <i class="ri-code-line"></i>
+            <h2 class="services__title">
+              Creación <br />
+              de Reportes Interactivos
+            </h2>
+
+            <p class="services__description">
+              Servicio que ofrece calidad de reportes para el cliente mediante
+              figuras interactivas y simples de facil entendimiento.
+            </p>
+            <div class="services__border"></div>
+          </div>
+
+          <div class="services__card">
+            <i class="ri-quill-pen-line"></i>
+            <h2 class="services__title">
+              Analisis <br />
+              de Datos
+            </h2>
+
+            <p class="services__description">
+              Servicio de procesamiento de datos sin procesar para convertirlos
+              en información de utilidad para el cliente.
+            </p>
+            <div class="services__border"></div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PROJECTS ====================-->
+      <section class="projects section" id="projects">
+        <h2 class="section__title">Proyectos</h2>
+        <span class="section__subtitle">Proyectos Recientes</span>
+
+        <div class="container section__border">
+          <div class="projects__container swiper">
+            <div class="swiper-wrapper">
+              <!--==================== PROJECT 1 ====================-->
+              <div class="projects__content swiper-slide">
+                <img
+                  src="assets/img/Intro1.PNG"
+                  alt="projects image"
+                  class="projects__img"
+                />
+
+                <div>
+                  <span class="projects__subtitle">Web</span>
+                  <h1 class="projects__title">Pokemon App</h1>
+
+                  <a href="#" class="projects__button">
+                    View Demo <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+              <!--==================== PROJECT 2 ====================-->
+              <div class="projects__content swiper-slide">
+                <img
+                  src="assets/img/Intro2.PNG"
+                  alt="projects image"
+                  class="projects__img"
+                />
+
+                <div>
+                  <span class="projects__subtitle">Web</span>
+                  <h1 class="projects__title">Rick y Morty App</h1>
+
+                  <a href="#" class="projects__button">
+                    View Demo <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+              <!--==================== PROJECT 3 ====================-->
+              <!-- <div class="projects__content swiper-slide">
+                <img
+                  src="assets/img/project3.jpg"
+                  alt="projects image"
+                  class="projects__img"
+                />
+
+                <div>
+                  <span class="projects__subtitle">Design</span>
+                  <h1 class="projects__title">Application Design</h1>
+
+                  <a href="#" class="projects__button">
+                    View Demo <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div> -->
+              <!--==================== PROJECT 4 ====================-->
+              <!-- <div class="projects__content swiper-slide">
+                <img
+                  src="assets/img/project4.jpg"
+                  alt="projects image"
+                  class="projects__img"
+                />
+
+                <div>
+                  <span class="projects__subtitle">Animation</span>
+                  <h1 class="projects__title">Animation Prototypes</h1>
+
+                  <a href="#" class="projects__button">
+                    View Demo <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div> -->
+            </div>
+            <!-- Swiper arrows -->
+
+            <div class="swiper-button-next">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+            <!-- Swiper pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== TESTIMONIAL ====================-->
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contáctame</h2>
+        <span class="section__subtitle">Ponerse en contacto</span>
+
+        <div class="contact__container container grid section__border">
+          <div class="contact__content">
+            <h3 class="contact__title">
+              <i class="ri-chat-3-line"></i> Háblame
+            </h3>
+
+            <div class="contact__info">
+              <div class="contact__data">
+                <span class="contact__data-title">Email</span>
+                <span class="contact__data-info"
+                  >diego.caceres.canova@gmail.com</span
+                >
+              </div>
+
+              <div class="contact__data">
+                <span class="contact__data-title">whastapp</span>
+                <span class="contact__data-info">+51 992627486</span>
+                <!--==================== Insert a real number plus country code ====================-->
+                <a
+                  href="https://api.whatsapp.com/send?phone=51992627486&text=Hello, more information!"
+                  target="_blank"
+                  class="contact__button"
+                >
+                 Escríbeme <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
+              <div class="contact__data">
+                <span class="contact__data-title">Twitter</span>
+                <span class="contact__data-info">
+                  <i class="ri-twitter-line"></i> @DiegoCaceresC</span
+                >
+
+                <a
+                  href="https://twitter.com/DiegoCaceresC"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Escríbeme <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact__content">
+            <h3 class="contact__title">
+              <i class="ri-send-plane-line"></i> Escríbeme tu proyecto
+            </h3>
+
+            <form action="" class="contact__form" id="contact-form">
+              <div class="contact__form-div">
+                <label class="contact__form-tag">Nombres</label>
+                <input
+                  type="text"
+                  name="user_name"
+                  required
+                  placeholder="Escribe tus nombres"
+                  class="contact__form-input"
+                  id="contact-name"
+                />
+              </div>
+
+              <div class="contact__form-div">
+                <label class="contact__form-tag">Mail</label>
+                <input
+                  type="email"
+                  name="user_email"
+                  required
+                  placeholder="Escribe tu email"
+                  class="contact__form-input"
+                  id="contact-email"
+                />
+              </div>
+
+              <div class="contact__form-div contact__form-area">
+                <label class="contact__form-tag">Proyecto</label>
+                <textarea
+                  name="user_project"
+                  id="contact-project"
+                  placeholder="Escribe tu proyecto"
+                  class="contact__form-input"
+                ></textarea>
+              </div>
+
+              <p class="contact__message" id="contact-message"></p>
+
+              <button type="submit" class="contact__button">
+                Enviar <i class="ri-arrow-right-up-line"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title">Diego</h1>
+        <p>Full Stack Developer</p>
+
+        <ul class="footer__list">
+          <li>
+            <a href="#home" class="footer__link"> Home </a>
+          </li>
+
+          <li>
+            <a href="#skills" class="footer__link"> Skills </a>
+          </li>
+
+          <li>
+            <a href="#projects" class="footer__link"> Proyectos</a>
+          </li>
+        </ul>
+
+        <ul class="footer__social">
+          <a
+            href="https://www.linkedin.com/in/diego-c%C3%A1ceres-c%C3%A1nova-b51624278/"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="ri-linkedin-box-line"></i>
+          </a>
+          <a
+            href="https://github.com/DiegoCaceresC"
+            target="_blank"
+            class="home__social-link"
+          >
+            <i class="ri-github-line"></i>
+          </a>
+        </ul>
+
+        <span class="footer__copy">
+          &#169; Copyright Bedimcode. All rights reserved
+        </span>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== EMAIL JS ===============-->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
