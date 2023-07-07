@@ -9,4 +9,5 @@ Un saludo<br><br>
 <br>
 <p>Skills</p>
 <br>
+
 ![alt text](https://github.com/DiegoCaceresC/Diego-Caceres-Web-Personal/blob/main/Imagenes/skills.PNG) 
